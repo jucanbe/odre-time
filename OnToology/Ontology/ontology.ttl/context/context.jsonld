@@ -1,0 +1,443 @@
+{
+  "@context" : {
+    "trackingParty" : {
+      "@id" : "https://w3id.org/def/odre-time#trackingParty",
+      "@type" : "@id"
+    },
+    "RightOperand" : {
+      "@id" : "https://w3id.org/def/odre-time#RightOperand"
+    },
+    "leftOperand" : {
+      "@id" : "https://w3id.org/def/odre-time#leftOperand",
+      "@type" : "@id"
+    },
+    "scopeNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote"
+    },
+    "meets" : {
+      "@id" : "http://www.w3.org/2006/time#meets"
+    },
+    "implies" : {
+      "@id" : "https://w3id.org/def/odre-time#implies",
+      "@type" : "@id"
+    },
+    "Privacy" : {
+      "@id" : "https://w3id.org/def/odre-time#Privacy"
+    },
+    "proximity" : {
+      "@id" : "https://w3id.org/def/odre-time#proximity"
+    },
+    "isVersionOf" : {
+      "@id" : "http://purl.org/dc/terms/isVersionOf"
+    },
+    "member" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "attributingParty" : {
+      "@id" : "https://w3id.org/def/odre-time#attributingParty",
+      "@type" : "@id"
+    },
+    "Duty" : {
+      "@id" : "https://w3id.org/def/odre-time#Duty"
+    },
+    "Request" : {
+      "@id" : "https://w3id.org/def/odre-time#Request"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "finishedBy" : {
+      "@id" : "http://www.w3.org/2006/time#finishedBy"
+    },
+    "Asset" : {
+      "@id" : "https://w3id.org/def/odre-time#Asset"
+    },
+    "output" : {
+      "@id" : "https://w3id.org/def/odre-time#output",
+      "@type" : "@id"
+    },
+    "Organization" : {
+      "@id" : "http://schema.org/Organization"
+    },
+    "after" : {
+      "@id" : "http://www.w3.org/2006/time#after"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "Permission" : {
+      "@id" : "https://w3id.org/def/odre-time#Permission"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "compensatedParty" : {
+      "@id" : "https://w3id.org/def/odre-time#compensatedParty",
+      "@type" : "@id"
+    },
+    "contractedParty" : {
+      "@id" : "https://w3id.org/def/odre-time#contractedParty",
+      "@type" : "@id"
+    },
+    "Offer" : {
+      "@id" : "https://w3id.org/def/odre-time#Offer"
+    },
+    "startedBy" : {
+      "@id" : "http://www.w3.org/2006/time#startedBy"
+    },
+    "Agreement" : {
+      "@id" : "https://w3id.org/def/odre-time#Agreement"
+    },
+    "operator" : {
+      "@id" : "https://w3id.org/def/odre-time#operator",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Prohibition" : {
+      "@id" : "https://w3id.org/def/odre-time#Prohibition"
+    },
+    "contains" : {
+      "@id" : "http://www.w3.org/2006/time#contains"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "informedParty" : {
+      "@id" : "https://w3id.org/def/odre-time#informedParty",
+      "@type" : "@id"
+    },
+    "rightOperandReference" : {
+      "@id" : "https://w3id.org/def/odre-time#rightOperandReference"
+    },
+    "LeftOperand" : {
+      "@id" : "https://w3id.org/def/odre-time#LeftOperand"
+    },
+    "profile" : {
+      "@id" : "https://w3id.org/def/odre-time#profile"
+    },
+    "consequence" : {
+      "@id" : "https://w3id.org/def/odre-time#consequence",
+      "@type" : "@id"
+    },
+    "assigner" : {
+      "@id" : "https://w3id.org/def/odre-time#assigner",
+      "@type" : "@id"
+    },
+    "overlaps" : {
+      "@id" : "http://www.w3.org/2006/time#overlaps"
+    },
+    "UndefinedTerm" : {
+      "@id" : "https://w3id.org/def/odre-time#UndefinedTerm"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch"
+    },
+    "operand" : {
+      "@id" : "https://w3id.org/def/odre-time#operand",
+      "@type" : "@id"
+    },
+    "AssetCollection" : {
+      "@id" : "https://w3id.org/def/odre-time#AssetCollection"
+    },
+    "uid" : {
+      "@id" : "https://w3id.org/def/odre-time#uid"
+    },
+    "Person" : {
+      "@id" : "http://schema.org/Person"
+    },
+    "note" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#note"
+    },
+    "inheritFrom" : {
+      "@id" : "https://w3id.org/def/odre-time#inheritFrom",
+      "@type" : "@id"
+    },
+    "Agent" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Agent"
+    },
+    "Ticket" : {
+      "@id" : "https://w3id.org/def/odre-time#Ticket"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "Individual" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Individual"
+    },
+    "Constraint" : {
+      "@id" : "https://w3id.org/def/odre-time#Constraint"
+    },
+    "AssetScope" : {
+      "@id" : "https://w3id.org/def/odre-time#AssetScope"
+    },
+    "inheritAllowed" : {
+      "@id" : "https://w3id.org/def/odre-time#inheritAllowed"
+    },
+    "partOf" : {
+      "@id" : "https://w3id.org/def/odre-time#partOf",
+      "@type" : "@id"
+    },
+    "failure" : {
+      "@id" : "https://w3id.org/def/odre-time#failure",
+      "@type" : "@id"
+    },
+    "conflict" : {
+      "@id" : "https://w3id.org/def/odre-time#conflict",
+      "@type" : "@id"
+    },
+    "status" : {
+      "@id" : "https://w3id.org/def/odre-time#status"
+    },
+    "or" : {
+      "@id" : "https://w3id.org/def/odre-time#or",
+      "@type" : "@id"
+    },
+    "rightOperand" : {
+      "@id" : "https://w3id.org/def/odre-time#rightOperand"
+    },
+    "informingParty" : {
+      "@id" : "https://w3id.org/def/odre-time#informingParty",
+      "@type" : "@id"
+    },
+    "assigneeOf" : {
+      "@id" : "https://w3id.org/def/odre-time#assigneeOf",
+      "@type" : "@id"
+    },
+    "scope" : {
+      "@id" : "https://w3id.org/def/odre-time#scope",
+      "@type" : "@id"
+    },
+    "contractingParty" : {
+      "@id" : "https://w3id.org/def/odre-time#contractingParty",
+      "@type" : "@id"
+    },
+    "action" : {
+      "@id" : "https://w3id.org/def/odre-time#action",
+      "@type" : "@id"
+    },
+    "deprecated" : {
+      "@id" : "http://www.w3.org/2002/07/owl#deprecated"
+    },
+    "hasPolicy" : {
+      "@id" : "https://w3id.org/def/odre-time#hasPolicy",
+      "@type" : "@id"
+    },
+    "timedCount" : {
+      "@id" : "https://w3id.org/def/odre-time#timedCount",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "permission" : {
+      "@id" : "https://w3id.org/def/odre-time#permission",
+      "@type" : "@id"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/terms/subject"
+    },
+    "obligation" : {
+      "@id" : "https://w3id.org/def/odre-time#obligation",
+      "@type" : "@id"
+    },
+    "attributedParty" : {
+      "@id" : "https://w3id.org/def/odre-time#attributedParty",
+      "@type" : "@id"
+    },
+    "consentedParty" : {
+      "@id" : "https://w3id.org/def/odre-time#consentedParty",
+      "@type" : "@id"
+    },
+    "Datatype" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    },
+    "trackedParty" : {
+      "@id" : "https://w3id.org/def/odre-time#trackedParty",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "function" : {
+      "@id" : "https://w3id.org/def/odre-time#function",
+      "@type" : "@id"
+    },
+    "includedIn" : {
+      "@id" : "https://w3id.org/def/odre-time#includedIn",
+      "@type" : "@id"
+    },
+    "refinement" : {
+      "@id" : "https://w3id.org/def/odre-time#refinement",
+      "@type" : "@id"
+    },
+    "Assertion" : {
+      "@id" : "https://w3id.org/def/odre-time#Assertion"
+    },
+    "and" : {
+      "@id" : "https://w3id.org/def/odre-time#and",
+      "@type" : "@id"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "consentingParty" : {
+      "@id" : "https://w3id.org/def/odre-time#consentingParty",
+      "@type" : "@id"
+    },
+    "Rule" : {
+      "@id" : "https://w3id.org/def/odre-time#Rule"
+    },
+    "dataType" : {
+      "@id" : "https://w3id.org/def/odre-time#dataType",
+      "@type" : "@id"
+    },
+    "assignee" : {
+      "@id" : "https://w3id.org/def/odre-time#assignee",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "https://w3id.org/def/odre-time#source"
+    },
+    "PartyScope" : {
+      "@id" : "https://w3id.org/def/odre-time#PartyScope"
+    },
+    "Operator" : {
+      "@id" : "https://w3id.org/def/odre-time#Operator"
+    },
+    "undefined" : {
+      "@id" : "https://w3id.org/def/odre-time#undefined",
+      "@type" : "@id"
+    },
+    "anyURI" : {
+      "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "overlappedBy" : {
+      "@id" : "http://www.w3.org/2006/time#overlappedBy"
+    },
+    "target" : {
+      "@id" : "https://w3id.org/def/odre-time#target",
+      "@type" : "@id"
+    },
+    "duty" : {
+      "@id" : "https://w3id.org/def/odre-time#duty",
+      "@type" : "@id"
+    },
+    "unit" : {
+      "@id" : "https://w3id.org/def/odre-time#unit"
+    },
+    "broaderTransitive" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broaderTransitive"
+    },
+    "andSequence" : {
+      "@id" : "https://w3id.org/def/odre-time#andSequence",
+      "@type" : "@id"
+    },
+    "Policy" : {
+      "@id" : "https://w3id.org/def/odre-time#Policy"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader"
+    },
+    "starts" : {
+      "@id" : "http://www.w3.org/2006/time#starts"
+    },
+    "metBy" : {
+      "@id" : "http://www.w3.org/2006/time#metBy"
+    },
+    "Party" : {
+      "@id" : "https://w3id.org/def/odre-time#Party"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "during" : {
+      "@id" : "http://www.w3.org/2006/time#during"
+    },
+    "remedy" : {
+      "@id" : "https://w3id.org/def/odre-time#remedy",
+      "@type" : "@id"
+    },
+    "assignerOf" : {
+      "@id" : "https://w3id.org/def/odre-time#assignerOf",
+      "@type" : "@id"
+    },
+    "before" : {
+      "@id" : "http://www.w3.org/2006/time#before"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor"
+    },
+    "payeeParty" : {
+      "@id" : "https://w3id.org/def/odre-time#payeeParty",
+      "@type" : "@id"
+    },
+    "Action" : {
+      "@id" : "https://w3id.org/def/odre-time#Action"
+    },
+    "ConflictTerm" : {
+      "@id" : "https://w3id.org/def/odre-time#ConflictTerm"
+    },
+    "compensatingParty" : {
+      "@id" : "https://w3id.org/def/odre-time#compensatingParty",
+      "@type" : "@id"
+    },
+    "equals" : {
+      "@id" : "http://www.w3.org/2006/time#equals"
+    },
+    "inheritRelation" : {
+      "@id" : "https://w3id.org/def/odre-time#inheritRelation",
+      "@type" : "@id"
+    },
+    "Literal" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "LogicalConstraint" : {
+      "@id" : "https://w3id.org/def/odre-time#LogicalConstraint"
+    },
+    "prohibition" : {
+      "@id" : "https://w3id.org/def/odre-time#prohibition",
+      "@type" : "@id"
+    },
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "PartyCollection" : {
+      "@id" : "https://w3id.org/def/odre-time#PartyCollection"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/terms/format"
+    },
+    "relation" : {
+      "@id" : "https://w3id.org/def/odre-time#relation",
+      "@type" : "@id"
+    },
+    "constraint" : {
+      "@id" : "https://w3id.org/def/odre-time#constraint",
+      "@type" : "@id"
+    },
+    "Set" : {
+      "@id" : "https://w3id.org/def/odre-time#Set"
+    },
+    "xone" : {
+      "@id" : "https://w3id.org/def/odre-time#xone",
+      "@type" : "@id"
+    },
+    "Collection" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Collection"
+    },
+    "finished" : {
+      "@id" : "http://www.w3.org/2006/time#finished"
+    }
+  }
+}

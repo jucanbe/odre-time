@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "http://www.w3.org/2006/time#overlaps" "http://www.w3.org/2006/time#meets" "base:PartyCollection" "base:Permission" "base:Privacy" "http://www.w3.org/2006/time#contains" "base:Prohibition" "base:Asset" "base:Rule" "http://www.w3.org/2006/time#after" "base:AssetCollection" "base:Assertion" "http://www.w3.org/2006/time#starts" "base:Agreement" "http://www.w3.org/2006/time#before" "http://www.w3.org/2006/time#during" "schema:Action" "http://www.w3.org/2006/time#equals" "base:Duty" "http://www.w3.org/2006/time#overlappedBy" "43ee8d654533ebb6b50c87156aed5e3f" "http://www.w3.org/2006/time#finished" "base:Set" "base:Action" "base:Policy" "base:Party" "http://www.w3.org/2006/time#finishedBy" "base:Offer" "base:Operator" "http://www.w3.org/2006/time#startedBy" "http://www.w3.org/2006/time#metBy" "base:Ticket" "base:Request" ; /*classes style*/
+node [shape = rectangle, color="black"]; "http://www.w3.org/2006/time#overlaps" "http://www.w3.org/2006/time#meets" "base:PartyCollection" "base:Permission" "base:Privacy" "http://www.w3.org/2006/time#contains" "base:Prohibition" "base:Asset" "base:Rule" "http://www.w3.org/2006/time#after" "base:AssetCollection" "base:Assertion" "http://www.w3.org/2006/time#starts" "base:Agreement" "http://www.w3.org/2006/time#before" "http://www.w3.org/2006/time#during" "schema:Action" "http://www.w3.org/2006/time#equals" "base:Duty" "http://www.w3.org/2006/time#overlappedBy" "http://www.w3.org/2006/time#finished" "base:Set" "base:Action" "base:Policy" "base:Party" "http://www.w3.org/2006/time#finishedBy" "base:Offer" "base:Operator" "http://www.w3.org/2006/time#startedBy" "http://www.w3.org/2006/time#metBy" "base:Ticket" "db8288fe8bcd791930334152d3c89bf8" "base:Request" ; /*classes style*/
 	"base:Assertion" -> "base:Policy" [ label = "rdfs:subClassOf" ];
 	"base:Ticket" -> "base:Policy" [ label = "rdfs:subClassOf" ];
 	"http://www.w3.org/2006/time#metBy" -> "base:Operator" [ label = "rdfs:subClassOf" ];
@@ -16,7 +16,7 @@ node [shape = rectangle, color="black"]; "http://www.w3.org/2006/time#overlaps" 
 	"http://www.w3.org/2006/time#contains" -> "base:Operator" [ label = "rdfs:subClassOf" ];
 	"base:PartyCollection" -> "base:Party" [ label = "rdfs:subClassOf" ];
 	"http://www.w3.org/2006/time#finishedBy" -> "base:Operator" [ label = "rdfs:subClassOf" ];
-	"base:Party" -> "43ee8d654533ebb6b50c87156aed5e3f" [ label = "rdfs:subClassOf" ];
+	"base:Party" -> "db8288fe8bcd791930334152d3c89bf8" [ label = "rdfs:subClassOf" ];
 	"base:Prohibition" -> "base:Rule" [ label = "rdfs:subClassOf" ];
 	"base:AssetCollection" -> "base:Asset" [ label = "rdfs:subClassOf" ];
 	"http://www.w3.org/2006/time#overlappedBy" -> "base:Operator" [ label = "rdfs:subClassOf" ];
